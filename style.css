@@ -507,3 +507,92 @@ footer {
         display: block;
     }
 }
+
+@media (max-width: 576px) {
+    .section-title h2 {
+        font-size: 1.8rem;
+    }
+
+    .portfolio-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+        padding: 0;
+    }
+
+    .portfolio-card {
+        border-radius: 12px;
+    }
+
+    .card-img {
+        height: 180px;
+        margin: 8px;
+        border-radius: 8px;
+    }
+
+    .badge-premium {
+        padding: 3px 8px;
+        font-size: 0.55rem;
+        top: 5px;
+        right: 5px;
+    }
+
+    .card-info {
+        padding: 12px 10px;
+    }
+
+    .card-info h3 {
+        font-size: 0.95rem;
+        margin-bottom: 12px;
+        line-height: 1.2;
+        min-height: 2.4em; /* Ensure same height for 2 lines */
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+    }
+
+    .card-actions {
+        gap: 5px;
+    }
+
+    .btn-outline, .btn-contact-small {
+        padding: 5px 8px;
+        font-size: 0.7rem;
+        width: 100%;
+        justify-content: center;
+        border-radius: 4px;
+    }
+
+    .features-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 12px;
+    }
+
+    .feature-card {
+        padding: 15px 10px;
+    }
+
+    .feature-card i {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+
+    .feature-card h3 {
+        font-size: 0.9rem;
+        margin-bottom: 5px;
+    }
+
+    .feature-card p {
+        font-size: 0.75rem;
+        line-height: 1.4;
+    }
+
+    .pricing-card {
+        padding: 30px 20px;
+        min-width: 280px;
+    }
+
+    .price {
+        font-size: 2rem;
+    }
+}
